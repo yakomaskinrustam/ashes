@@ -1,0 +1,89 @@
+
+:root{
+    --icon-container-size: 2em;
+    --icon-size: 1.25em;
+    --icon-padding: 0.3125em;
+}
+.iqonic-extension-social-position-horizontal .nicol-social-item {
+    display: inline-block;
+    word-break: break-word;
+}
+
+.nicol-share {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.nicol-social-icons .nicol-social-item .nicol-share {
+    /* font-size: var(--icon-size,1em); */
+    line-height: var(--icon-container-size,1em);
+    width: var(--icon-container-size,1em);
+    height: var(--icon-container-size,1em);
+}
+.nicol-social-icons .nicol-social-item .nicol-share {
+    font-size: var(--icon-size,1em);
+}
+.nicol-social-icons .nicol-social-item .nicol-share svg{
+    width: var(--icon-size,1em);
+    height: var(--icon-size,1em);
+}
+
+.nicol-social-item a:hover{
+    color: var(--color-theme-primary);
+}
+
+.iqonic-extension-shape-rounded .nicol-share{
+    border-radius: var(--border-radius-box);
+    -webkit-border-radius: var(--border-radius-box);
+    -moz-border-radius: var(--border-radius-box);
+    -o-border-radius: var(--border-radius-box);
+    -ms-border-radius: var(--border-radius-box);
+}
+
+.iqonic-extension-shape-square .nicol-share{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+}
+.nicol-social-names .nicol-social-item:last-child{
+    padding: 0;
+}
+a.nicol-share{
+    color: var(--color-theme-white);
+    font-weight: var(--font-weight-bold);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.nicol-social-names .nicol-social-item{
+    padding-right: 0;
+}
+
+.nicol-social-share.nicol-social-icons-names .nicol-social-item a svg,
+.nicol-social-share.nicol-social-icons-names .nicol-social-item a i {
+    margin-right: 0.625em;
+}
+.nicol-social-share.nicol-social-icons-names .nicol-social-item a i,
+.nicol-social-share.nicol-social-icons .nicol-social-item a i{
+    transition: none;
+}
+
+.nicol-social-names .nicol-social-item a:hover{
+    -webkit-transform: translateY(-.3125em);
+    transform: translateY(-.3125em);
+    -webkit-transition: .3s;
+    transition: .3s;
+}

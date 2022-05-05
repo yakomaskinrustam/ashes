@@ -1,0 +1,95 @@
+.nicol-title-box.nicol-title-box-1 {
+    position: relative;
+    z-index: 1;
+}
+
+.nicol-title-box.nicol-title-box-1 .nicol-heading-title {
+    margin-bottom: 1em;
+}
+
+.nicol-title-box .nicol-subtitle-wrap.nicol-subtitle-after .nicol-subtitle{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.nicol-title-box .nicol-subtitle {
+    color: var(--global-font-subtitle);
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-subtitle);
+}
+
+.nicol-title-box .nicol-title-desc {
+    margin-top: 2em;
+}
+.left.nicol-title-box .nicol-title-desc ,.right.nicol-title-box .nicol-title-desc{
+    margin-top: 1em;
+}
+
+.nicol-title-box {
+    margin-bottom: 4em;
+}
+
+.nicol-title-box.left ,.nicol-title-box.right{
+    margin-bottom: 2.5em;
+}
+.highlighted-text-wrap{
+    position: relative;
+    display: inline-block;
+}
+.highlighted-text-wrap:before ,.highlighted-text-wrap:after{
+    content: "";
+    position: absolute;
+    background:var(--color-theme-primary);
+    bottom: 0;
+    border-radius: var(--border-radius-box);
+}
+.highlighted-text-wrap:before{
+    left: 0.0625em;
+    right: 0.155em;
+    width: auto;
+    height: 0.08em;
+}
+.highlighted-text-wrap:after {
+    width: 0.08em;
+    height: 0.08em;
+    right: 0;
+}
+.highlighted-text-wrap.animated:before{
+    -webkit-animation: scale-in-hor-left .7s cubic-bezier(.25, .46, .45, .94) both;
+    animation: scale-in-hor-left .7s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+.highlighted-text-wrap.animated:after{
+    -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;  
+}
+
+
+.scale-in-hor-left {
+    -webkit-animation: scale-in-hor-left .7s cubic-bezier(.25, .46, .45, .94) both;
+    animation: scale-in-hor-left .7s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+
+  
+  .bounce-top {
+	-webkit-animation: bounce-top 0.9s both;
+	        animation: bounce-top 0.9s both;
+}
+
+@media(max-width: 1024px) {
+    .nicol-title-box.text-center,
+    .nicol-title-box.center,
+    .nicol-title-box.left {
+        margin-bottom: 2em;
+    }
+}
+
+@media(max-width: 767px) {
+    .mobile-text-center .nicol-title,
+    .mobile-text-center .nicol-title-desc {
+        text-align: center;
+    }
+}

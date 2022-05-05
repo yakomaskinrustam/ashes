@@ -1,0 +1,76 @@
+.nicol-team .nicol-team-blog {
+    position: relative;
+}
+
+.nicol-team .nicol-team-blog .nicol-team-info .nicol-team-main-detail .nicol-description p {
+    margin: 0;
+    margin-top: 1em;
+} 
+
+.nicol-team-blog .nicol-team-info .nicol_speficialize{
+    padding: 0.3125em 0;
+}
+.nicol-team-blog .nicol-team-info .nicol_speficialize span{ 
+    font-family: var(--highlight-font-family);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: var(--letter-spacing-three);
+    text-transform: capitalize;
+    color: var(--global-font-color);   
+}
+
+.nicol-team-blog  .nicol-team-social ul li:last-child a{
+   margin: 0;
+}
+
+.nicol-team-blog  .nicol-team-social ul li a svg{
+    width: 1.25em;
+    stroke: var(--color-theme-primary);
+    transition: all 0.5s;
+}
+.nicol-team-blog  .nicol-team-social ul li a:hover svg{
+    color: var(--color-theme-white);
+    stroke: var(--color-theme-white);
+}
+
+.nicol-team .owl-carousel .nicol-team-blog{
+    margin-bottom: 0;
+}
+
+
+
+/* swiper */
+.nicol-team-slider.nicol-team .nicol-team-img img{
+    height:28.75em;
+    object-fit: cover;
+}
+.nicol-team .nicol-team-img img{
+    border-radius: var(--border-radius-box);
+}
+.nicol-team-slider.nicol-team .swiper-slide:nth-of-type(odd) .nicol-team-img img{
+    height: 24.75em;
+}
+.nicol-team-slider.nicol-team .swiper-slide:nth-of-type(odd) .nicol-team-img{
+    margin-top: 1.5em;
+}
+.nicol-team-slider.nicol-team .nicol-team-blog{
+    margin-bottom: 0;
+} 
+@media(max-width:1400px){
+    .nicol-team-style-grid .col-xl-3.col-lg-4.col-md-6:nth-of-type(even) .nicol-team-blog .nicol-team-img img,.nicol-team.nicol-team-style-grid .nicol-team-img img ,.nicol-team-style-grid .col-xl-3.col-lg-4.col-md-6:nth-of-type(odd) .nicol-team-blog .nicol-team-img img{
+        height: auto;
+    }  
+    .nicol-team-slider.nicol-team .nicol-team-img img ,.nicol-team-slider.nicol-team .swiper-slide:nth-of-type(odd) .nicol-team-img img{
+        height: auto;
+    } 
+
+}
+@media(max-width:992px){
+
+    .nicol-team .nicol-team-blog{
+        margin-bottom: 2em;
+    }
+    
+}
+
+
+

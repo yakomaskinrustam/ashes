@@ -1,0 +1,73 @@
+.nicol-service{
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.nicol-service-one{
+    position: relative;
+    padding: 4.125em 4.25em;
+    background: var(--global-body-bgcolor);
+    display: block;
+    border-radius: var(--border-radius-box);
+    margin: 0 1.625em;
+}
+.nicol-service-one .nicol-service-description{
+margin-bottom: 0;
+color: var(--global-font-color);
+}
+.nicol-service-one .nicol-icon-image{
+    margin-bottom: 2em;
+}
+
+.tilt-effect.preserve-3d {
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(50em);
+    transform: perspective(50em);
+}
+.tilt-effect.preserve-3d .nicol-service-one{
+    transform: translateZ(3.125em);  
+}
+.nicol-service-one .nicol-icon-image img{
+    width: 9.75em;
+}
+
+.nicol-service-two.nicol-service .nicol-icon-image svg ,.nicol-service-two.nicol-service .nicol-icon-image img{
+width: 3.75em;
+height: auto;
+margin-right: 1.5em;
+}
+.nicol-service-two.nicol-service .nicol-icon-image i{
+    font-size: 1.5em;
+    margin-right: 1.5em;
+}
+.nicol-service-two.nicol-service .nicol-service-image img{
+border-radius: var(--border-radius-box);
+}
+.nicol-service-two.nicol-service .nicol-service-info{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+.nicol-service.nicol-service-two:hover .nicol-heading-title{
+    color: var(--color-theme-primary);
+}
+
+@media(max-width:1024px){
+.nicol-service-one{
+    padding: 2em;
+    margin:0 1em;
+ }
+ .tilt-effect.preserve-3d .nicol-service-one{
+    transform: translateZ(0);
+    margin: 0;
+ }
+}
+
+
+@media(max-width:767px){
+    .nicol-service-two.nicol-service .nicol-service-info{
+        margin-top: 1.5em;
+    }
+}
