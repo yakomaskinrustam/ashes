@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'zombies';
+  src: URL('font.ttf') format('truetype');
+}
+
+body, html {
+  margin: 0;
+  letter-spacing: 3px !important;
+  font-style: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  margin: 0;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 20%;
+  background: rgba(0, 0, 0, 0.4);
+  color: #f1f1f1;
+  width: 100%;
+}
+
+button:hover {
+  background: black !important;
+  color: #ADD8E6 !important;
+}
+
+#root {
+  line-height: 40px;
+  color: white !important;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
